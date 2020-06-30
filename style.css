@@ -1,0 +1,95 @@
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+section{
+    height: 400px;
+   /* margin-bottom: 100px;*/
+   padding: 100px 5%;
+}
+#header-bg{
+    background-image: url("images/header-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#biography-bg{
+    background-image: url("images/biography-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#last-section{
+    background-image: url("images/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#message{
+    margin: auto;
+    width: 32%;
+    height: 100px;
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(126, 51, 37), rgb(240, 138, 138));
+    padding: 10px 0px 0px 40px;
+    border-radius: 10px;
+}
+#message a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: wheat;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+    font-weight: 700;
+}
+.honor{
+    color: orangered;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 7%;
+    
+}
+.half-width img{
+    width: 100%;
+}
+.hire-me{
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, lightblue, blue);
+    color: wheat;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.my-latest-work{
+    text-align: center;
+
+}
+.my-latest-work img{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 10px 20px 30px gray;
+}
+.client{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
